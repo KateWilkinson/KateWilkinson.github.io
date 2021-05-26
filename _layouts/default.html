@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
+<html lang="{{ site.lang | default: "en-GB" }}">
+    <body>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta charset="utf-8">
+            <link href='/favicon.png' rel='icon' />
+            <title>{{ site.title }}</title>
+            <link rel="stylesheet" href='/assets/css/main.css'>
+        </head>
+        <main>
+            <header><span><a class="title" href='/'>Kate Wilkinson</a><a class="about-me" href='/about-me'>about me</a></span></header>
+            <div class="blurb">Thoughts on software development, working together and trying to make the industry a more inclusive place</div>
+            <div>
+                {{ content }}
+            </div>
+        </main>
+    </body>
 </html>

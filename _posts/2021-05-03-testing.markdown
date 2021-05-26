@@ -1,3 +1,9 @@
-# A Test Post
+---
+layout: post
+title:  "My test"
+date:   2021-05-03
+categories: jekyll
+---
+# Test Post
 
-This is a test post.
+This is a test

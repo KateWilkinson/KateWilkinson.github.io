@@ -1,0 +1,51 @@
+body {
+  border-top: 15px solid #AAAAFF;
+  padding: 50px 0;
+  margin: 0;
+  font: 300 18px Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: black;
+}
+
+header {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #AAAAFF;
+}
+
+.title {
+  text-align: left;
+}
+
+.about-me {
+  float: right;
+  font-size: 1.5rem;
+}
+
+.blurb {
+  margin-left: 25%;
+  margin-right: 25%;
+  color: #AAAAFF;
+  font-size: 2rem;
+}
+
+ul {
+  margin-left: 25%;
+  margin-right: 25%;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  font-size: 1.6rem;
+}
